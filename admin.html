@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ניהול משחק</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ניהול משחק</h1>
+        <form id="questionForm">
+            <label for="question">שאלה:</label>
+            <input type="text" id="questionInput" required>
+            <label for="answers">תשובות (מופרדות בפסיקים):</label>
+            <input type="text" id="answersInput" required>
+            <label for="correctAnswer">תשובה נכונה:</label>
+            <input type="text" id="correctAnswerInput" required>
+            <button type="submit">הוסף שאלה</button>
+        </form>
+        <h2>תוצאות שחקנים</h2>
+        <div id="playersStatus">
+            <!-- תוצאות השחקנים יכנסו כאן -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
